@@ -13,7 +13,7 @@ export default class IDNavbar extends Component {
     full
   >
     <NavbarBrand href="/">
-    vidyajyoti
+Vidya Jyoti Residence
     </NavbarBrand>
     <NavbarToggler onClick={function noRefCheck(){}} />
     <Collapse navbar>
@@ -42,7 +42,7 @@ export default class IDNavbar extends Component {
               First Years
             </DropdownItem>
             <DropdownItem>
-              second Years
+              Second Years
             </DropdownItem>
             <DropdownItem divider />
             <DropdownItem>
@@ -58,7 +58,7 @@ export default class IDNavbar extends Component {
 
       </Nav>
       <NavbarText>
-        Simple Text
+        Menu
       </NavbarText>
     </Collapse>
   </Navbar>

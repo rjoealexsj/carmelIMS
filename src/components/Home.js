@@ -5,18 +5,19 @@ export default class Home extends Component {
         return (
             <div>
                 <div className='text-center p-4 bg-primary'>
-       <h1 style={{color: 'yellow'}}>  Jesuit Residence </h1>
+       <h1 style={{color: 'yellow'}}>  Application for Jesuit Residence  </h1>
             </div>
             <FormGroup style= {{overflow: "visible", paddingTop:'50px'}}>
               <Row style ={{marginBottom:'20px'}}>
                 <Col xs={3} lg={2}> 
                 <label for="username"> Name </label>
                 </Col>
+              
                 <Col xs={9} lg={4}>
                 <input type= "text" placeholder= 'Enter Your Name' value =""/>
                 </Col>
                 <Col xs={3} lg={2}>
-                <label for="username1"> Name </label>
+                <label for="username1"> Sur Name </label>
                 </Col>
                 <Col xs={9} lg={4}>
                 <input type= "text" placeholder= 'Enter Your Name' value =""/>
@@ -40,10 +41,10 @@ export default class Home extends Component {
 
               <Row style={{marginBottom:'20px'}}>
               <Col xs={3} lg={2}> 
-                <label for="province"> province </label>
+                <label for="province"> congregation/Diocese </label>
                 </Col>
                 <Col xs={9} lg={4}>
-                <input type= "text" placeholder= 'Enter Your province' value =""/>
+                <input type= "text" placeholder= 'Enter Your congregation/diocese' value =""/>
                 </Col>
                 <Col xs={3} lg={2}>
                 <label for="dob"> Date of Birth </label>
@@ -61,18 +62,28 @@ export default class Home extends Component {
                 <input type= "text" placeholder= 'Enter Your Blood Group' value =""/>
                 </Col>
                 <Col xs={3} lg={2}>
-                <label for="roomno"> Room No </label>
+                <label for="Degre"> B.Th/M.Th </label>
                 </Col>
                 <Col xs={9} lg={4}>
-                <input type= "text" placeholder= 'Enter Your Room No' value =""/>
+                <input type= "text" placeholder= 'Enter Your Degree' value =""/>
                 </Col>
                 
               </Row>
+              <Row style={{marginBottom:'20px'}}>
+              <Col xs={3} lg={2}> 
+                <label for="Choice"> Your Choice </label>
+                </Col>
+                <Col xs={9} lg={4}>
+                <input type= "text" placeholder= '1/2/3 Floor' value =""/>
+                
+                </Col>
+               </Row>
+
             </FormGroup>
             <div className= 'text-center'>
               <button className= 'bth' style= {{border:'2px solid blue'}}> Submit </button>
             </div>
-
+            
             </div>
         )
     }
