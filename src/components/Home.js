@@ -71,11 +71,42 @@ export default class Home extends Component {
               </Row>
               <Row style={{marginBottom:'20px'}}>
               <Col xs={3} lg={2}> 
-                <label for="Choice"> Your Choice </label>
+                <label for="Address"> Permanent Adresss </label>
                 </Col>
                 <Col xs={9} lg={4}>
-                <input type= "text" placeholder= '1/2/3 Floor' value =""/>
+                <input type= "text" placeholder= 'Enter Your Permanant Address' value =""/>
+                </Col>
+                <Col xs={3} lg={2}>
+                <label for="Contact Number"> Contact Number </label>
+                </Col>
+                <Col xs={9} lg={4}>
+                <input type= "text" placeholder= 'Enter Contact Number' value =""/>
+                </Col>
                 
+              </Row>
+              <Row style={{marginBottom:'20px'}}>
+              <Col xs={3} lg={2}> 
+                <label for="Choice"> Preference </label>
+                </Col>
+                
+                <Col xs={3} lg={2}>
+            <Input
+      id="exampleSelect"
+      name="select"
+      type="select"
+    >
+      <option>
+        First Floor
+      </option>
+      <option>
+        Second Floor
+      </option>
+      <option>
+        Third Floor
+      </option>
+     
+    </Input>
+
                 </Col>
                </Row>
 

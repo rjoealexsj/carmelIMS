@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Col, FormGroup, Input, Label,Badge,ButtonDropdown,DropdownToggle,DropdownMenu,DropdownItem,} from 'reactstrap';
+import {Col, FormGroup, Input, Label,Badge, ButtonDropdown,DropdownToggle,DropdownMenu,DropdownItem,} from 'reactstrap';
 
 export default class Sidebar extends Component {
     render() {
@@ -7,10 +7,12 @@ export default class Sidebar extends Component {
             <div>
              <Badge
     color="info"
-    href="#"
-  >
+    href="#">
     Info
-  </Badge>
+      </Badge>
+  
+
+      
   
             </div>
         )

@@ -58,8 +58,32 @@ Vidya Jyoti Residence
 
       </Nav>
       <NavbarText>
-        Menu
+      <UncontrolledDropdown
+          inNavbar
+          nav
+        >
+          <DropdownToggle
+            caret
+            nav
+          >
+            Menu
+          </DropdownToggle>
+          <DropdownMenu right>
+            <DropdownItem>
+              Information
+            </DropdownItem>
+            <DropdownItem>
+              Feature
+            </DropdownItem>
+            <DropdownItem divider />
+            <DropdownItem>
+              Contact Us
+            </DropdownItem>
+          </DropdownMenu>
+        </UncontrolledDropdown>
+        
       </NavbarText>
+
     </Collapse>
   </Navbar>
 </div>    
