@@ -4,14 +4,14 @@ import IDNavbar from './components/IDNavbar';
 
 import Home from './components/Home';
 import Sidebar from './components/Sidebar';
+import New from './components/New';
 
 function App() {
   return (
    <div className='container' style={{paddingTop:'50px'}}>
-     <IDNavbar />
-   <Home />
-<Sidebar />
-
+      {/*<IDNavbar />
+ <Home /> 
+<Sidebar />*/}
 
 
     </div>

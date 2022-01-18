@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import {Col, FormGroup, Input, Label, Row, ButtonDropdown,DropdownToggle,DropdownMenu,DropdownItem,} from 'reactstrap';
+import New from './New';
 export default class Home extends Component {
     render() {
         return (
             <div>
-                <div className='text-center p-4 bg-primary'>
-       <h1 style={{color: 'yellow'}}>  Application for Jesuit Residence  </h1>
-            </div>
+            
             <FormGroup style= {{overflow: "visible", paddingTop:'50px'}}>
               <Row style ={{marginBottom:'20px'}}>
                 <Col xs={3} lg={2}> 
@@ -113,9 +112,9 @@ export default class Home extends Component {
             </FormGroup>
             <div className= 'text-center'>
               <button className= 'bth' style= {{border:'2px solid blue'}}> Submit </button>
-            </div>
-            
-            </div>
+        </div> 
+                        </div>
+                      
         )
     }
 }
