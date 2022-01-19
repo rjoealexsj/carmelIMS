@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import logo from '../img/logo.png';
-import { FormGroup } from 'reactstrap'
+import { FormGroup } from 'reactstrap';
 export default class New extends Component {
     render() {
         return (
@@ -15,7 +15,7 @@ export default class New extends Component {
         <i className="bi bi-phone"></i> Call us now +1 5589 55488 55
       </div>
           </div>
-          </div>
+          </div> 
 
           <div className="container d-flex align-items-center">
 
