@@ -1,5 +1,6 @@
 import './App.css';
 import './css/style.css'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IDNavbar from './components/IDNavbar';
 import Belowbar from './components/Belowbar'
