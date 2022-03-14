@@ -13,10 +13,10 @@ import Footer from './components/Footer';
 function App() {
   return (
    <div className='container' style={{paddingTop:'50px'}}>
-       {/* <Belowbar />
+       <Belowbar />
    <IDNavbar />
  <Home /> 
-<Sidebar />*/}
+<Sidebar />
 <New />
 <SliderCorousel />
 <Footer />
